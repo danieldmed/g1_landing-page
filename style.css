@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 450;
+    height: 100vh;
+    width: 100vw;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+.txt {color: rgb(19, 68, 204);}
+.txt1 {color: rgb(151, 18, 18);}
+.txt2 {color: green;}
+.txt3 {color: rgb(245, 92, 37);}
+.txt4 {color: rgb(255, 0, 34);}
+.txt5 {color: rgb(100, 7, 7);}
+.txt6 {color: rgb(23, 34, 131);}
+.txt7 {color: #000000;}
+
+.user-acc {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: rgb(196, 17, 17);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header, p {
+    color: #ffffff;
+    display: flex;
+}
+
+.menu-burger {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+
+}
+
+.srch-btn, .srch, .sbmt {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(167, 16, 16);
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ad-lola {
+    width: 900px;
+    height: 250px;
+    background-color: aliceblue;
+    margin-top: 40px;
+}
+
+.container {
+    width: 1300px;
+    height: 1300px;
+    margin-top: 40px;
+    background-color: aquamarine;
+    display: grid;
+    grid-template-rows: ;
+    row-gap: 20px;
+}
+
+.content1 {
+    background-color: brown;
+    width: 640px;
+    height: 600px;
+}
+
+.content2, .content3 {
+    background-color: rgb(80, 109, 13);
+    width: 640px;
+    height: 280px;
+}
